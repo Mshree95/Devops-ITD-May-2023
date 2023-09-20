@@ -1,5 +1,3 @@
-
-
 data "aws_ami" "ubuntu" {
   most_recent = true
 
@@ -18,10 +16,4 @@ resource "aws_instance" "my_instance" {
     tags = {
         Name = "First_Terraform_resource_creation"
     } 
-
 }
-
-
-
-
-
